@@ -1,0 +1,8 @@
+semWait userInput
+assign c input
+assign b input
+semSignal userInput
+semWait userOutput
+printFromTo c b
+printFromTo c b
+semSignal userOutput
